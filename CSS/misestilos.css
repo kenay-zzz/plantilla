@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font: bold 20px verdana, sans-serif;
+}
+h2{
+    font: bold 14px verdana, sans-serif;
+}
+header, section, footer, aside, nav, article, figure, figcaption, hgroup
+{ display: block;}
+
+#agrupar{
+    width: 960px;
+    margin: 15px auto;
+    text-align: left;
+}
+
+
+img{
+    width: 300px;
+    height: auto;
+}
+#cabecera{
+background-color: rgb(22, 65, 19);
+border: 1px solid #051f0d;
+padding: 20px ;
+text-align: center;
+}
+#menu{
+    background: #7ca86b ;
+    padding: 5px 15px;
+}
+#menu li{
+display: inline;
+list-style: none;
+padding: 10px;
+font: bold 14px verdana, sans-serif;
+margin: 10px ;
+
+}
+#seccion{
+float: left;
+width: 660px;
+margin: 20px;
+}
+
+
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #093817;
+}
+article{
+background: #7ca86b;
+border: 1px #010301;
+padding: 20px;
+margin-bottom: 15px;
+
+
+}
+article footer{
+text-align:center;
+}
+time{
+    color: #093817;
+}
+figcaption{
+    font:italic 14px verdana, sans-serif;
+}
